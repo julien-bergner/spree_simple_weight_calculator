@@ -7,10 +7,6 @@ module Spree
       preference :handling_fee, :decimal, default: 0
       preference :handling_max, :decimal, default: 0
 
-      attr_accessible :preferred_costs_string,  :preferred_max_item_size,
-                      :preferred_handling_max, :preferred_handling_fee,
-                      :preferred_default_weight
-
       def self.description
         Spree.t(:simple_weight)
       end
