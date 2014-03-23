@@ -25,6 +25,11 @@ Usage
 
 Add to your Gemfile
 
+    # for spree 2.1.0
+    gem 'spree_simple_weight_calculator',
+      github: 'julien-bergner/spree_simple_weight_calculator',
+      branch: '2-1-stable'
+
     # for spree 2.0.x
     gem 'spree_simple_weight_calculator',
       github: 'freego/spree_simple_weight_calculator',
